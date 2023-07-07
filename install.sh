@@ -11,5 +11,3 @@ for i in $APIS
 do
   echo "199.36.153.10 $i" >> /etc/hosts
 done
-
-gcloud beta services identity create --service=iap.googleapis.com --project=$project
